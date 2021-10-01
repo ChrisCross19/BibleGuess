@@ -10,10 +10,10 @@
       <h1>Create new Game</h1>
       <p><u>Game settings:</u></p>
         
-      <select id="box1" onChange="readOpt(this);">
+      <select id="lang" onChange="readOpt(this);">
         <option value="GER">German</option>
       </select>
-      The bible verses will be in <p id="selDisp"></p>
+      <p>The bible verses will be in </p><p id="selDisp"></p>
     </div>
 
   </body>
@@ -21,6 +21,8 @@
 
 <script>
   function readOpt(sel) {
-    alert(sel.options[sel.selectedIndex].text);
+    //alert(sel.options[sel.selectedIndex].text);
+    var placeholder = document.getElementById(lang);
+    placeholder.innerText = sel.options[sel.selectedIndex].text;
   }
 </script>
