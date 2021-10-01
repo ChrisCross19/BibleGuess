@@ -8,8 +8,18 @@
   </body>
     <div id="main">
       <h1>Create new Game</h1>
-      <p>Join an existing game:</p>
+      <p><u>Game settings:</u></p
+        
+        <select id="box1" onChange="readOpt(this);">
+          <option value="GER">German</option>
+      </select>
     </div>
 
   </body>
 </html>
+
+<script>
+  function readOpt(sel) {
+    alert(sel.options[sel.selectedIndex].text);
+  }
+</script>
