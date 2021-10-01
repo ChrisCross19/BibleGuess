@@ -20,9 +20,13 @@
 </html>
 
 <script>
+  window.onload = function() {
+    readOpt(document.getElementById("lang");
+  };
+  
   function readOpt(sel) {
     //alert(sel.options[sel.selectedIndex].text);
-    var placeholder = document.getElementById(lang);
+    var placeholder = document.getElementById("selDisp");
     placeholder.innerText = sel.options[sel.selectedIndex].text;
   }
 </script>
