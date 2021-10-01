@@ -1,11 +1,15 @@
 html{
   font-family: "Tahoma", Times, serif;
 }
+input{
+  font-size: 1em;
+}
 
 
 
 #main{
   padding: 1em;
   border: black solid 2px;
-  align: center;
+  text-align: center;
+  
 }
