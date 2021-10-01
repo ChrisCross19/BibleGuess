@@ -2,7 +2,7 @@ html{
   font-family: "Tahoma", Times, serif;
   background-color: #dd9966;
 }
-input{
+input[type=number]{
   font-size: 1.5em;
 }
 
