@@ -5,6 +5,7 @@ html{
 input{
   font-size: 1.5em;
 }
+
 div.h1{
   font-size: 2em; 
 }
@@ -15,5 +16,5 @@ div.h1{
   padding: 1em;
   border: black solid 2px;
   text-align: center;
-  
+  background-color: #5599bb;
 }
