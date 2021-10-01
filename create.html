@@ -22,11 +22,13 @@
 <script>
   window.onload = function() {
     readOpt(document.getElementById("lang");
+    console.log("loaded");
   };
   
   function readOpt(sel) {
     //alert(sel.options[sel.selectedIndex].text);
     var placeholder = document.getElementById("selDisp");
     placeholder.innerText = sel.options[sel.selectedIndex].text;
+    console.log("read");
   }
 </script>
