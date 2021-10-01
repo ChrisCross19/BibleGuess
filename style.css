@@ -7,4 +7,5 @@ html{
 #main{
   padding: 1em;
   border: black solid 2px;
+  align: center;
 }
