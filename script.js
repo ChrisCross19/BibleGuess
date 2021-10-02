@@ -1,3 +1,3 @@
-function maxLength (e){
-    e.value=e.value.replace(/[^0-9]/g,'');
+function maxLength (){
+    this.value=this.value.replace(/[^0-9]/g,'');
 }
