@@ -11,7 +11,7 @@
       <h1>BibleGuess</h1>
       <p>Join an existing game:</p>
       <input type="number" placeholder="Game number"/>
-      <input type="number" maxlength="1" oninput="maxLength(this)" />
+      <input type="number" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
       <input type="submit" value="Go!"/>
       <p>or: <a href="create.html">create game</a></p>
     </div>
