@@ -9,9 +9,26 @@ input{
   font-size: 1.3em;
 }
 input[type=number]{
-  font-size: 1.5em;
+  font-size: 2em;
   border-radius: 10px;
+  border-style: none;
+  background-color: #a8b1d3;
+  color: #444;
+  width: 2em;
+  text-align: center;
 }
+/*remove arrows*/
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
 
 div.h1{
   font-size: 2em; 
