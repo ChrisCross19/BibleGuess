@@ -2,6 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     
     <title>BibleGuess</title>
   </head>
@@ -10,6 +11,7 @@
       <h1>BibleGuess</h1>
       <p>Join an existing game:</p>
       <input type="number" placeholder="Game number"/>
+      <input type="number" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
       <input type="submit" value="Go!"/>
       <p>or: <a href="create.html">create game</a></p>
     </div>
