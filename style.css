@@ -28,13 +28,15 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
-
+/*end*/
 
 div.h1{
   font-size: 2em; 
 }
-div.a{
-  color: lightblue;
+
+/*div.*/
+a{
+  color: #4ed8e6;
 }
 
 
