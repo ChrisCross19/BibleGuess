@@ -16,12 +16,12 @@
       </select>
       <label>The bible verses will be in </label><label id="selLangDisp"></label> <br>
       
-      <select id=„testamentSel“ onChange=„readTestament(this);“>
-        <option value=„ALL“>Both</option>
-        <option value=„OLD“>Old testament</option>
-        <option value=„NEW">New testament</option>
+      <select id="testamentSel“ onChange="readTestament(this);">
+        <option value="ALL">Both"/option>
+        <option value="OLD">Old testament</option>
+        <option value="NEW">New testament</option>
       </select>
-      <label>You will get verses from </label><label id=„selTestamentDisp“></label> <br>
+      <label>You will get verses from </label><label id="selTestamentDisp"></label> <br>
       
       
       <button onClick="console.log('created');">Create game!</button>
@@ -44,9 +44,11 @@
     //console.log("read");
   }
   
-  function readTestament(sel) {
+  //error
+  function readTestament(sender) {
     var placeholder = document.getElementById("selTestamentDisp");
-    placeholder.innerText = sel.options[sel.selectedIndex].text;
-    //console.log("read");
+    placeholder.innerText = sender.options[sender.selectedIndex].text;
+    //alert(sender.options[sender.selectedIndex].text);
+    
   }
 </script>
