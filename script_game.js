@@ -6,12 +6,11 @@ window.onload = function() {
 
 function addPlayer(nickName){
     var playerID;
-    //var nickName;
     
     var participants = document.getElementById("participants");
     
     var pl = document.createElement('div');
-    pl.class = "player";
+    pl.className = "player";
     participants.appendChild(pl);
     
     var name = document.createElement('h3');

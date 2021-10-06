@@ -1,5 +1,13 @@
 .player{
-  border-style: solid 2px #aaa;
+  border-style: solid;
+  margin: 2em;
+  /*padding: 1em -1em 1em -10em;*/
+}
+
+#participants{
+  border-style: solid none none none;
+  border-color: #ccc;
+  padding: 1em
 }
 
 
