@@ -19,6 +19,9 @@ function nextDigit (nr){
             console.log("join")
             fadeOutEffect()
             document.getElementById("joinSpinner").style = "";
+            setTimeout(function(){ 
+                window.location.href='game.html';
+            }, 4000);
             break;
     }
 }
