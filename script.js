@@ -2,9 +2,6 @@ function nextDigit (nr){
     // this.value=this.value.replace(/[^0-9]/g,'');
     // console.log("max");
     switch (nr) {
-        // case 1:
-        //     document.getElementById("digitTwo").focus();
-        //     break;
         case 2:
             document.getElementById("digitTwo").focus();
             break;
@@ -16,11 +13,12 @@ function nextDigit (nr){
             break;
     
         case 5:
-            console.log("join")
+            console.log("joining...")
             fadeOutEffect()
             document.getElementById("joinSpinner").style = "";
-            setTimeout(function(){ 
-                window.location.href='game.html';
+            setTimeout(function(){
+                var form = document.getElementById("formular");
+                form.submit();
             }, 4000);
             break;
     }

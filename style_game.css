@@ -4,12 +4,26 @@
   /*padding: 1em -1em 1em -10em;*/
 }
 
-#participants{
+#participants, #playField{
   border-style: solid none none none;
   border-color: #ccc;
   padding: 1em
 }
 
+#questionContainer{
+  font-size: 20;
+  text-align: center;
+  padding: 2em 1em;
+  border-radius: 20px;
+  border-color: rgb(153, 153, 153);
+  border-style: solid;
+  background-color: rgb(112, 140, 240);
+}
+
+/* disabled */
+.gameInput:disabled{
+  background-color: rgb(99, 99, 99);
+}
 
 
 /*loader*/
